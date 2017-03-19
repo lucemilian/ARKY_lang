@@ -1,0 +1,49 @@
+
+
+
+
+D0 D1 D2 D3 D4 D5 D6 D7
+A0 A1 A2 A3 A4 A5 A6 A7
+SP SR USP PC CCR
+
+
+add addq addx
+sub subq subx
+neg negx
+move clr
+cmp cmpm
+tst
+not and or eor
+asl asr lsl lsr rol rolx rox
+andi eor ori
+
+
+adda
+subba
+movem movea movep
+ext
+
+
+abcd sbcd nbcd
+muls mulu
+divs divu
+
+beq bne
+bpl bmi
+bvc bvs
+bge bgt ble blt
+bcc bhi bls bcs
+
+btst bset bclr bchg
+
+exg link unlk
+moveq lea
+swap scc
+tas
+
+bra bsr bcc dbcc
+chk
+jmp jsr
+rts rtr rte
+trap trapv
+nop reset stop

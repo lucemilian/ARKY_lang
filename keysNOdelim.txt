@@ -1,0 +1,63 @@
+
+
+
+
+D0 D1 D2 D3 D4 D5 D6 D7
+A0 A1 A2 A3 A4 A5 A6 A7
+SP SR USP PC CCR
+
+
+add.b addq.b addx.b
+sub.b subq.b subx.b
+neg.b negx.b
+move.b clr.b
+cmp.b cmpm.b
+tst.b
+not.b and.b or.b eor.b
+asl.b asr.b lsl.b lsr.b rol.b ror.b roxl.b rox.b
+andi.b eori.b ori.b
+
+
+add.w addq.w addx.w adda.w
+sub.w subq.w subx.w subba.w
+neg.w negx.w
+move.w movem.w movea.w movep.w
+clr.w ext.w
+cmp.w cmpm.w
+tst.w
+not.w and.w or.w eor.w
+asl.w asr.w lsl.w lsr.w rol.w ror.w roxl.w rox.w
+andi.w eori.w ori.w
+
+
+add.l addq.l addx.l adda.l
+sub.l subq.l subx.l subba.l
+neg.l negx.l
+move.l movem.l movea.l movep.l
+clr.l ext.l
+cmp.l cmpm.l
+tst.l
+not.l and.l or.l eor.l
+asl.l asr.l lsl.l lsr.l rol.l ror.l roxl.l rox.l
+andi.l eori.l ori.l
+
+
+abcd sbcd nbcd
+muls mulu
+divs divu
+btst bset bclr bchg
+
+
+exg link unlk
+moveq lea
+swap scc
+tas
+
+bra bsr bcc dbcc
+chk
+jmp jsr
+rts rtr rte
+trap trapv
+
+
+ 
